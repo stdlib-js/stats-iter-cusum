@@ -20,7 +20,7 @@ limitations under the License.
 
 # itercusum
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create an [iterator][mdn-iterator-protocol] which iteratively computes a cumulative sum.
 
@@ -157,9 +157,9 @@ while ( true ) {
 
 ## See Also
 
--   [`@stdlib/stats/iter/cumean`][@stdlib/stats/iter/cumean]: create an iterator which iteratively computes a cumulative arithmetic mean.
--   [`@stdlib/stats/iter/sum`][@stdlib/stats/iter/sum]: compute the sum of all iterated values.
--   [`@stdlib/stats/iter/cuprod`][@stdlib/stats/iter/cuprod]: create an iterator which iteratively computes a cumulative product.
+-   <span class="package-name">[`@stdlib/stats/iter/cumean`][@stdlib/stats/iter/cumean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/sum`][@stdlib/stats/iter/sum]</span><span class="delimiter">: </span><span class="description">compute the sum of all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/cuprod`][@stdlib/stats/iter/cuprod]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative product.</span>
 
 </section>
 
@@ -210,8 +210,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-iter-cusum/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-iter-cusum?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-iter-cusum.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-iter-cusum/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
