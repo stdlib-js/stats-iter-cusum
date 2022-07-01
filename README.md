@@ -43,14 +43,30 @@ The cumulative sum is defined as
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-iter-cusum
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import itercusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusum@esm/index.mjs';
+var itercusum = require( '@stdlib/stats-iter-cusum' );
 ```
 
 #### itercusum( iterator )
@@ -58,7 +74,7 @@ import itercusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusum@es
 Returns an [iterator][mdn-iterator-protocol] which iteratively computes a cumulative sum.
 
 ```javascript
-import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
+var array2iterator = require( '@stdlib/array-to-iterator' );
 
 var arr = array2iterator( [ 2.0, 1.0, 3.0, -7.0, -5.0 ] );
 var it = itercusum( arr );
@@ -103,14 +119,9 @@ s = it.next().value;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import itercusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusum@esm/index.mjs';
+```javascript
+var runif = require( '@stdlib/random-iter-uniform' );
+var itercusum = require( '@stdlib/stats-iter-cusum' );
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
@@ -132,10 +143,6 @@ while ( true ) {
         break;
     }
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -175,7 +182,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -231,6 +238,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-iter-cusum/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-iter-cusum/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-iter-cusum/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-iter-cusum/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-iter-cusum/main/LICENSE
 
@@ -238,11 +246,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats-iter-cumean/tree/esm
+[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats-iter-cumean
 
-[@stdlib/stats/iter/sum]: https://github.com/stdlib-js/stats-iter-sum/tree/esm
+[@stdlib/stats/iter/sum]: https://github.com/stdlib-js/stats-iter-sum
 
-[@stdlib/stats/iter/cuprod]: https://github.com/stdlib-js/stats-iter-cuprod/tree/esm
+[@stdlib/stats/iter/cuprod]: https://github.com/stdlib-js/stats-iter-cuprod
 
 <!-- </related-links> -->
 
