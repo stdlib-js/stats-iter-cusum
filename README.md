@@ -165,9 +165,9 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/iter/cumean`][@stdlib/stats/iter/cumean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean.</span>
--   <span class="package-name">[`@stdlib/stats/iter/sum`][@stdlib/stats/iter/sum]</span><span class="delimiter">: </span><span class="description">compute the sum of all iterated values.</span>
--   <span class="package-name">[`@stdlib/stats/iter/cuprod`][@stdlib/stats/iter/cuprod]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative product.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/cumean`][@stdlib/stats/iter/cumean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/sum`][@stdlib/stats/iter/sum]</span><span class="delimiter">: </span><span class="description">compute the sum of all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/cuprod`][@stdlib/stats/iter/cuprod]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative product.</span>
 
 </section>
 
