@@ -65,7 +65,7 @@ The cumulative sum is defined as
 ## Usage
 
 ```javascript
-import itercusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusum@esm/index.mjs';
+import itercusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusum@v0.2.1-esm/index.mjs';
 ```
 
 #### itercusum( iterator )
@@ -125,7 +125,7 @@ s = it.next().value;
 <script type="module">
 
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import itercusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusum@esm/index.mjs';
+import itercusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cusum@v0.2.1-esm/index.mjs';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
